@@ -10,7 +10,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Developer() {
   return (
     <span className="group">
-      <span className="font-mono">&lt;</span>开发者
+      <span className="font-mono">&lt;</span>体验者
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
+      艺术家
     </span>
   )
 }
@@ -81,7 +81,7 @@ export function Headline() {
       >
         <Balancer>
           我们是 Mx & Wah
-          <PeekabooLink href="https://ko.ac.cn">MxArt Studio</PeekabooLink>
+          <PeekabooLink href="https://www.ko.ac.cn">MxArt Studio</PeekabooLink>
           创始人，目前致力于艺术文化探索，打造独特的人文艺术素养。
           我们热爱艺术，享受生活，欣赏美。
         </Balancer>
@@ -104,18 +104,13 @@ export function Headline() {
           platform="twitter"
         />
         <SocialLink
-          href="/bilibili"
-          aria-label="我的 Bilibili"
-          platform="bilibili"
-        />
-        <SocialLink
           href="/github"
           aria-label="我的 GitHub"
           platform="github"
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@ooim.xyz"
+          href="mailto:hi@ko.ac.cn"
           aria-label="我的邮箱"
           platform="mail"
         />
