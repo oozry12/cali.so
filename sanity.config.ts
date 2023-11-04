@@ -1,7 +1,6 @@
 /**
  * This configuration is used to for the Sanity Studio that’s mounted on the `/app/studio/[[...index]]/page.tsx` route
  */
-import { markdownSchema } from "sanity-plugin-markdown";
 import { codeInput } from '@sanity/code-input'
 import { visionTool } from '@sanity/vision'
 import { defineConfig } from 'sanity'
@@ -25,7 +24,6 @@ export default defineConfig({
     deskTool({
       structure: settingsStructure(settingsType),
     }),
-    markdownSchema(),
     // Vision is a tool that lets you query your content with GROQ in the studio
     // https://www.sanity.io/docs/the-vision-plugin
     visionTool({ defaultApiVersion: apiVersion }),
